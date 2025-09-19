@@ -1,0 +1,33 @@
+{
+  "name": "r_ai",
+  "version": "1.0.0",
+  "description": "Electron based Offline Software model",
+  "homepage": "https://github.com/rohaaaaaan/R_AI#readme",
+  "bugs": {
+    "url": "https://github.com/rohaaaaaan/R_AI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohaaaaaan/R_AI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"vite\" \"electron .\""
+  },
+  "dependencies": { 
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.3",
+    "concurrently": "^9.2.1",
+    "electron": "^38.1.2",
+    "wait-on": "^7.0.1",
+    "vite": "^7.1.6",
+    "vite-plugin-electron": "^1.2.3"
+    
+    }
+}

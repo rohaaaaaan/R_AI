@@ -16,18 +16,17 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"vite\" \"electron .\""
+    "start": "concurrently \"vite\" \"electron .\"\"npm dev run"
   },
-  "dependencies": { 
+  "dependencies": {
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.3",
     "concurrently": "^9.2.1",
     "electron": "^38.1.2",
-    "wait-on": "^7.0.1",
     "vite": "^7.1.6",
-    "vite-plugin-electron": "^1.2.3"
-    
-    }
+    "vite-plugin-electron": "^0.29.0",
+    "wait-on": "^7.0.1"
+  }
 }

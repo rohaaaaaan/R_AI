@@ -16,9 +16,10 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"vite\" \"electron .\"\"npm dev run"
+    "start": "concurrently \"vite\" \"electron .\""
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
@@ -27,6 +28,7 @@
     "electron": "^38.1.2",
     "vite": "^7.1.6",
     "vite-plugin-electron": "^0.29.0",
+    "vite-plugin-monaco-editor": "^1.1.0",
     "wait-on": "^7.0.1"
   }
 }
